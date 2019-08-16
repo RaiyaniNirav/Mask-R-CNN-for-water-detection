@@ -4,4 +4,4 @@ This is an implimentation of Mask R-CNN proposed by Facebook AI Research (Girshi
 The implimentation can be devided in to three steps.
 * Preparation of Datasets
 * Mask R-CNN Training
-* Testin the Model
+* Testing the Model
