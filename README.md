@@ -8,12 +8,12 @@ The repository includes:
 * The implimentation detail of Mask R-CNN for water detection.
 * A step by step procedure to train Mask R-CNN on your own dataset.
 * Pre-trained weights of MS coco dataset.
-* A code to run object detection on video and webcam.
+* A Python code to run object detection on video and webcam.
 
 The implimentation can be devided in to three steps.
-* Preparation of Datasets
-* Mask R-CNN Training
-* Testing the Model
+1. Preparation of Datasets
+2. Mask R-CNN Training
+3. Testing the Model
 
 # 1. Preparation of dataset
 
