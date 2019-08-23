@@ -3,7 +3,12 @@ This is an implimentation of Mask R-CNN proposed by Facebook AI Research (Girshi
 
 ![](assets/Water_Det.gif)
 
-
+The repository includes:
+* The source code of Mask R-CNN with Resnet 101 and FPN(Feature Pyramid Network) as backbone.
+* The implimentation detail of Mask R-CNN for water detection.
+* A step by step procedure to train Mask R-CNN on your own dataset.
+* Pre-trained weights of MS coco dataset.
+* A code to run object detection on video and webcam.
 
 The implimentation can be devided in to three steps.
 * Preparation of Datasets
