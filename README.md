@@ -16,6 +16,13 @@ The implimentation can be devided in to three steps.
 3. Testing the Model
 
 # 1. Preparation of dataset
+Mask R-CNN model training requires annotated images. This work uses ```VGG-Image annotator-1.0.6``` for annotation, which can be downloaded from [here](http://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.6.html). The VGG annotation tool is an online html web page which does not require any downloading and is very easy to use. The annotation tool gives annotation in ```.json``` file containg the x and y co-ordinates of annotated pixels.
 
+```
 
- 
+CODE TIP:
+If you are using VGG-Image annotator-1.0.6, than the code of this repository doesnot require any modification
+while training.
+Side Note: If your data set is in video instead of images, this repository includes the python code to sample
+video at predefined sampling rate into images. 
+```
